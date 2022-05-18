@@ -1,0 +1,144 @@
+{
+  "data": [
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Garage door",
+        "power_source": "alkaline_battery",
+        "connected_at": "2019-04-10T08:02:36Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W001335336",
+        "programming_code": "2806",
+        "state": "locked",
+        "model_number": "BG (LS-3i)"
+      },
+      "id": "22387b9e-5594-4f46-a4ea-1520746d1b47"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Bathroom",
+        "power_source": "alkaline_battery",
+        "connected_at": "2019-04-10T08:02:36Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W001225336",
+        "programming_code": "2806",
+        "state": "locked",
+        "model_number": "BG (LS-3i)"
+      },
+      "id": "f5b1a547-c155-4f48-8fdf-615ca076e582"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Living Room",
+        "power_source": "alkaline_battery",
+        "connected_at": "2019-04-10T08:02:36Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W001695336",
+        "programming_code": "2806",
+        "state": "locked",
+        "model_number": "BG (LS-3i)"
+      },
+      "id": "43ef5c00-8930-489a-adf1-269408c2ed74"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Room 1",
+        "power_source": "alkaline_battery",
+        "connected_at": "2019-04-10T08:02:36Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W001685336",
+        "programming_code": "2806",
+        "state": "locked",
+        "model_number": "KoreLock"
+      },
+      "id": "8c028acb-4abe-455b-a6ee-7240fb3a56f8"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Home",
+        "power_source": "alkaline_battery",
+        "connected_at": "2019-04-10T08:02:36Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W001675336",
+        "programming_code": "2806",
+        "state": "locked",
+        "model_number": "OEMAIN"
+      },
+      "id": "e094068e-d32a-4633-9172-5d8310c54e64"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Kitchen",
+        "power_source": "alkaline_battery",
+        "connected_at": "2019-04-10T08:02:36Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W001665336",
+        "programming_code": "2806",
+        "state": "locked",
+        "model_number": "BG (LS-3i)"
+      },
+      "id": "52518e07-449d-44e8-891b-ba0eac63e5d7"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Bedroom",
+        "power_source": "alkaline_battery",
+        "connected_at": "2019-04-10T08:02:36Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W001655336",
+        "programming_code": "2806",
+        "state": "locked",
+        "model_number": "BG (LS-7i)"
+      },
+      "id": "9c8b3832-e48c-4140-a0bf-1571f03dc3a8"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Room 2",
+        "power_source": "alkaline_battery",
+        "connected_at": "2019-04-10T08:02:36Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W001645336",
+        "programming_code": "2806",
+        "state": "locked",
+        "model_number": "BG (LS-7i)"
+      },
+      "id": "c94e1bfd-9d6d-4450-a2e2-b05c610ce9e4"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Office",
+        "power_source": "lithium_battery",
+        "connected_at": "2019-05-18T17:00:51Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W003247822",
+        "programming_code": "1993",
+        "state": "unlocked",
+        "model_number": "OEMAIN"
+      },
+      "id": "e42d3bd6-483a-4962-b8b7-bcec43247140"
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "Wife's Office",
+        "power_source": "lithium_battery",
+        "connected_at": "2019-05-18T17:00:51Z",
+        "firmware_version": "5.01.181217.1",
+        "serial_number": "AC000W002247822",
+        "programming_code": "1993",
+        "state": "unlocked",
+        "model_number": "RG (LS-3i)"
+      },
+      "id": "8c8677a1-9dbd-46e5-8d8c-3615cc4cdb98"
+    }
+  ]
+}
