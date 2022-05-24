@@ -19,16 +19,18 @@
   </p>
 
   <div class="container">
-    <h3>Search for a lock</h3>
-    <div class="mb-3">
-      <input type="name" class="form-control" id="name" placeholder="Lock name">
+    <div class="input-container">
+      <div class="input-container__content">
+        <h3>Search for a lock</h3>
+        <input type="name" class="form-control" id="name" placeholder="Lock name">
+        <div class="input-container__content--cta">
+          <button type="button" class="btn btn-primary" id="search-button" onclick="window.searchHandler()">Search</button>
+          <button type="button" class="btn btn-secondary" id="clear-button" onclick="window.clearHandler()">Clear</button>
+        </div>
+      </div>
     </div>
-    <button type="button" class="btn btn-primary" id="search-button" onclick="window.searchHandler()">Search</button>
-    <button type="button" class="btn btn-secondary" id="clear-button" onclick="window.clearHandler()">Search</button>
+    <div id="device-result" class="row justify-content-between"></div>
 
-    <div id="device-result">
-
-    </div>
   </div>
   <script type="application/javascript" src="/js/search.js"> </script>
 </body>

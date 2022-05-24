@@ -1,8 +1,32 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 1em;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-container__content {
+  width: 100%;
+}
+
+.input-container__content--cta {
+  margin: 1rem 0;
+}
+
+.list-group-content {
+  padding: 1em 0;
+}
+
+@media (min-width: 768px) {
+  .input-container__content {
+    width: 40%;
+  }
 }
