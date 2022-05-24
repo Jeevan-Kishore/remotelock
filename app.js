@@ -18,9 +18,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
 app.use('/', indexRouter);
-app.use('/users', db.getUsers);
+
+/* API routes */
+app.use('/getItemByName/:name', db.getByName);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
@@ -39,6 +40,7 @@ app.use((err, req, res) => {
 });
 
 app.listen(5000, () => {
+  // eslint-disable-line
   console.log('Example app listening on port 5000');
 });
 
