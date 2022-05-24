@@ -9,15 +9,19 @@ input.addEventListener('keyup', (event) => {
 window.getDeviceData = async () => {
   const query = document.getElementById('name').value;
   if (query) {
-    // eslint-disable-next-line
-    return await (await fetch(`/getItemByName/${query}`)).json();
+    try {
+      // eslint-disable-next-line
+      return await (await fetch(`/getItemByName/${query}`)).json();
+    } catch (e) {
+      return { error: 'Something went wrong.' };
+    }
   }
   return [];
 };
 
 window.searchHandler = async () => {
   const data = await window.getDeviceData();
-  if (!data.length) {
+  if (data.error || !data.length) {
     const errorMessage = `<div class='d-flex justify-content-center'>
                              <h4 class='text-warning'>No locks found!</h4>
                            </div>`;
