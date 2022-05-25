@@ -39,7 +39,7 @@ app.use((err, req, res) => {
   res.render('error');
 });
 
-app.listen(5000, () => {
+app.listen(3000, () => {
   // eslint-disable-line
   console.log('Example app listening on port 5000');
 });
